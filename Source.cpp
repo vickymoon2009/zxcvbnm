@@ -84,7 +84,6 @@ public:
         return false;
     }
 
-    // >
     bool operator >(Date& b)
     {
         if (year > b.year)
